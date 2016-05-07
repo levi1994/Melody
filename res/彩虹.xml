@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<music>
+	<!-- 曲名 -->
+	<name>彩虹</name>
+	<!-- 选调 -->
+	<key>G</key>
+	<!-- 变调 -->
+	<copo>1</copo>
+	<!-- 作词人 -->
+	<lyricist>方文山</lyricist>
+	<!-- 作曲人 -->
+	<composer>周杰伦</composer>
+
+	<!-- 每小节多少拍 -->
+	<painum>4</painum>
+
+	<!-- 几分音符 -->
+	<fen>4</fen>
+	
+	<!-- 乐谱 -->
+	<sections>
+		<!-- 小节 -->
+		<section>
+			<!-- <melody>C</melody>
+			<melody>Dm7</melody> -->
+			
+			<!-- 第一拍 -->
+			<node>
+				<!-- 音符 从0开始  0-11 12-23 24-35  -1表示无音  -2表示延音  -->
+				<note>4</note>
+				<note>-2</note>
+			</node>
+			<!-- 第二拍 -->
+			<node>
+				<note>4</note>
+				<note>4</note>
+			</node>
+			<!-- 第三拍 -->
+			<node>
+				<note>4</note>
+				<note>5</note>
+			</node>
+			<!-- 第四拍 -->
+			<node>
+				<note>7</note>
+				<note>7</note>
+			</node>
+		</section>
+
+		<section>
+			<melody>Am7/E</melody>
+			<melody>Dm7</melody>
+			<!-- 第一拍 -->
+			<node>
+				<!-- 音符 -->
+				<note>7</note>
+				<note>12</note>
+			</node>
+			<!-- 第二拍 -->
+			<node>
+				<note>12</note>
+				<note>-2</note>
+			</node>
+			<!-- 第三拍 -->
+			<node>
+				<note>-1</note>
+				<note>-1</note>
+			</node>
+			<!-- 第四拍 -->
+			<node>
+				<note>0</note>
+				<note>2</note>
+			</node>
+		</section>
+
+		<section>
+			<melody>Am7/E</melody>
+			<melody>Dm7</melody>
+			<!-- 第一拍 -->
+			<node>
+				<!-- 音符 -->
+				<note>4</note>
+				<note>4</note>
+			</node>
+			<!-- 第二拍 -->
+			<node>
+				<note>4</note>
+				<note>4</note>
+			</node>
+			<!-- 第三拍 -->
+			<node>
+				<note>4</note>
+				<note>9</note>
+			</node>
+			<!-- 第四拍 -->
+			<node>
+				<note>11</note>
+				<note>14</note>
+			</node>
+		</section>
+
+		<section>
+			<melody>C</melody>
+			<melody>Dm7</melody>
+			<!-- 第一拍 -->
+			<node>
+				<!-- 音符 -->
+				<note>14</note>
+				<note>12</note>
+			</node>
+			<!-- 第二拍 -->
+			<node>
+				<note>12</note>
+				<note>12</note>
+			</node>
+			<!-- 第三拍 -->
+			<node>
+				<note>-1</note>
+				<note>-1</note>
+			</node>
+			<!-- 第四拍 -->
+			<node>
+				<note>-1</note>
+				<note>-1</note>
+			</node>
+		</section>
+
+		<section>
+			<melody>C</melody>
+			<melody>Dm7</melody>
+			<!-- 第一拍 -->
+			<node>
+				<!-- 音符 -->
+				<note>9</note>
+				<note>-2</note>
+			</node>
+			<!-- 第二拍 -->
+			<node>
+				<note>9</note>
+				<note>9</note>
+			</node>
+			<!-- 第三拍 -->
+			<node>
+				<note>9</note>
+				<note>11</note>
+			</node>
+			<!-- 第四拍 -->
+			<node>
+				<note>12</note>
+				<note>14</note>
+			</node>
+		</section>
+
+		<section>
+			<melody>Am7/E</melody>
+			<melody>Dm7</melody>
+			<!-- 第一拍 -->
+			<node>
+				<!-- 音符 -->
+				<note>14</note>
+				<note>7</note>
+			</node>
+			<!-- 第二拍 -->
+			<node>
+				<note>7</note>
+				<note>7</note>
+			</node>
+			<!-- 第三拍 -->
+			<node>
+				<note>0</note>
+				<note>0</note>
+			</node>
+			<!-- 第四拍 -->
+			<node>
+				<note>12</note>
+				<note>14</note>
+			</node>
+		</section>
+		
+	</sections>
+
+</music>
