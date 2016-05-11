@@ -19,7 +19,8 @@ public class FirstOperate implements Operatable {
 		//获取第一个音符
 		int firstNote = sections.get(0).getNotes()[0];
 		//获取最后一个音符
-		int lastNote = sections.get(sections.size()-1).getNotes()[melody.getPainum()*2-1];
+		int lastNote = getLastNote(sections);
+		
 		Key key = new Key("C");
 		//如果结束时1，开始为135.则确定为大调
 		if(lastNote%12==0 && (firstNote%12==0||firstNote%12==4||firstNote%12==7)){
@@ -52,12 +53,30 @@ public class FirstOperate implements Operatable {
 		int count = 0;
 		for(Section s: sections){
 			for(int t:s.getNotes()){
+				
 				if(note%12==t%12){
 					count++;
 				}
 			}
 		}
 		return count;	
+	}
+	
+	/**
+	 * 获取全曲的最后一个音符
+	 * 
+	 * @return
+	 */
+	private int getLastNote(ArrayList<Section> sections){
+		for(int i=sections.size()-1;i>=0;i--){
+			int []array = sections.get(i).getNotes();
+			for(int j=array.length-1;j>=0;j--){
+				if(array[j]!=-1){
+					return array[j];
+				}
+			}
+		}
+		return 0;
 	}
 	
 

@@ -5,6 +5,7 @@ import cn.com.melodies.excute.context.MelodyContextLocal;
 import cn.com.melodies.excute.operate.SecondOperate;
 import cn.com.melodies.excute.operate.ThirdOperate;
 import cn.com.melodies.excute.operate.FirstOperate;
+import cn.com.melodies.excute.operate.MajorPlusOperate;
 import cn.com.melodies.excute.operate.OperateList;
 import cn.com.melodies.struct.ChordNameMap;
 import cn.com.melodies.struct.Melody;
@@ -38,6 +39,7 @@ public class PrepareOperations {
 		operateList.add(new FirstOperate());
 		operateList.add(new SecondOperate());
 		operateList.add(new ThirdOperate());
+		operateList.add(new MajorPlusOperate());
 		//把这些东西都放进去
 		ctx.put(MelodyContext.MELODY, melody);
 		ctx.put(MelodyContext.CHORD_NAME_MAP, chordNameMap);

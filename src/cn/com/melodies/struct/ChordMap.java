@@ -43,6 +43,7 @@ public class ChordMap{
 		for(Entry<Chord,Double> en : set){
 			if(en.getValue()>dou){
 				rs = en.getKey();
+				dou = en.getValue();
 			}
 		}
 		return rs;

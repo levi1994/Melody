@@ -19,7 +19,6 @@ public class CommonUtils {
             int ch = 0;
             while((ch = fr.read())!=-1 )
             {
-                //System.out.print((char)ch); 
             	str.append((char)ch);
             }
             fr.close();
